@@ -1,0 +1,85 @@
+/* Google font link from google */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Open+Sans:ital,wght@0,400;0,700;1,800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+/* shared style */
+.btn-primary{
+    border-radius: 8px;
+background: #FF900E;
+color: #FFF;
+font-size: 1.25rem;
+font-weight: 600;
+padding: 20px 25px;
+border: 0;
+cursor: pointer;
+}
+*{
+ 
+font-family: 'Work Sans', sans-serif;
+}
+/* header styles */
+header{
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 228px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title{
+    font-size: 3rem;
+    font-weight: 700;
+    color:#131313 ;
+}
+nav > ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+    color:  #424242;
+text-align: center;
+font-size: 1rem;
+font-weight: 500;
+}
+nav >li >a{
+    text-decoration: none;
+    color: #424242;
+}
+/* banner style */
+.banner-content{
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+.banner-title{
+    font-size: 4rem;
+    color: #131313;
+    font-weight: 700;
+}
+.banner-description{
+    color: #727272;
+}
+.banner img{
+    width: 100%;
+    margin-top: 20px;
+}
+/* resonsive styles */
+@media screen and (max-width:576px) {
+    nav{
+        flex-direction: column;
+    }
+    header{
+        padding: 20px;
+    }
+}
+/* medium device */@media screen and (min-width:576px) and (max-width:992px){
+    nav{
+        flex-direction: column;
+    }
+    header{
+        padding: 50px;
+    }
+    nav{
+        flex-direction: column;
+    }
+}
